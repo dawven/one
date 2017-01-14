@@ -15,7 +15,7 @@ CUGer 13级 平时喜欢看书，逛逛论坛，打打游戏。
 
 
 
-博客源码在 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>这位大神Github</a> 上，你的 Star 是这位大神的动力。
+博客源码在这位大神 <a target="_blank" href='https://github.com/leopardpan/leopardpan.github.io/'>Github</a> 上，你的 Star 是这位大神的动力。
 
 {% include comments.html %}
 
