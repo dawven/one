@@ -1,7 +1,7 @@
 # Site
 title:              Viento
-bio:                '半路出道，胆小怕生，心地善良'
-description:        "中国地质大学（武汉）13级，爱好数据分析，熟悉Python和R"
+bio:                'Minimal, one column jekyll theme'
+description:        "Moon is a minimal, one column jekyll theme for your blog"
 reading_time:       true
 words_per_minute:   200
 logo:               'assets/img/logo.png'
