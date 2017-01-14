@@ -1,76 +1,70 @@
-# Site
-title:              Viento
-bio:                'Minimal, one column jekyll theme'
-description:        "Moon is a minimal, one column jekyll theme for your blog"
-reading_time:       true
-words_per_minute:   200
-logo:               'assets/img/logo.png'
-background:         'assets/img/placeholder-big.jpg'
-tiled_bg:           false   # Set this true if you want to tile your background image, otherwise it will be covered
-locale:             en_US
-url:                https://pangkanghua.github.io/Viento
+# Basic
+title: 雯风未动
+subtitle: 个人站
+description: 欢迎来到我的个人站~
+# 头像里面的标题
+avatarTitle: viento
+# 头像里面的描述
+avatarDesc: Python / 数据分析
+url: "http://viento.xyz"
 
-# Jekyll
-permalink:          /:title/
-markdown:           kramdown
-highlighter:        rouge
-kramdown:
-  auto_ids:         true
-  footnote_nr:      1
-  entity_output:    as_char
-  toc_levels:       1..6
-  enable_coderay:   false
-mathjax:            true
-sass:
-  sass_dir:         _sass
-  style:            compressed
-
-# Comments
-disqus_shortname:   taylantatli
+# Comment
+comment:
+    # disqus: leopard
+    duoshuo: viento 
 
 # Social
-# if you don't have any of social below, comment the line.
-#google:
-  #plus:            #username
-  #analytics:
-  #verify:
-  #ad-client:
-  #ad-slot:
-#bing-verify:
-#email:
-#twitter:            username
-#facebook:           username
-github-url:         pangkanghua
-#stackoverflow:     123456/username   from a "http://stackoverflow.com/users/123456/username" link
-#linkedin:          username
-#xing:              username
-instagram:          username
-#lastfm:            username
-#tumblr:            username
-#medium:            '@username'
-#pinterest:         username
-#foursquare:        username
-steam:              viento_hua
-#dribbble:          username
-#youtube:           username
-#youtube-channel:   channel
-#soundcloud:        username
-weibo:              vientohua
-#flickr:            username
-#codepen:           username
-#keybase:           username
-#xmpp:              username@server.com
-#hackernews:        username
+social:
+    weibo: vientohua 
+    github: pangkanghua
+    # twitter: 
+    mail: 15927122432@163.com
 
-# Gems
-gems:
-  - jekyll-mentions
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-gist
+# 百度统计 
+# 使用博客模板请去掉或者更换 id 
+#baidu:
+#    id: 8ba1c6be0953b6f9c2ba38e57f615421  
 
-jekyll-mentions:
-    base_url: https://github.com
+# Google Analytics
+# 使用博客模板请去掉或者更换 id
+#ga:
+#    id: UA-84134159-3   
+#    host: auto  
 
-# Exclude list
-exclude: [README.md, Gemfile, Gemfile.lock, node_modules, gulpfile.js, package.json, _site, src, vendor, CNAME, LICENSE, Rakefile]
+
+# 《----------------- 上面的信息修改成你自己的 ---------------------------》
+#
+#
+#  _post/ 下的文章更换成你自己的文章
+#  帮忙star一下，感谢~😆 地址： https://github.com/leopardpan/leopardpan.github.io
+#
+#
+# 《--------------- 下面的信息可以自行选择是否修改 ------------------------》
+
+
+permalink: /:year/:month/:title/
+# Format
+highlighter: rouge
+
+textColor: #FF0000
+
+# supported colors: blue, green, purple, red, orange or slate. If you need clear, leave it empty.
+cover_color: clear
+
+# The blog button should not be removed.
+blog_button:
+    title: 博客主页
+
+# Navigation buttons in the front page.s
+nav:
+    - {title: 所有文章, description: archive, url: '/archive'}   
+    - {title: 标签, description: tags, url: '/tags'}      
+    - {title: 关于我, description: about, url: '/about'}      
+    
+
+# Pagination
+gems: [jekyll-paginate,jekyll-sitemap]
+paginate: 20
+paginate_path: "page/:num/"
+
+
