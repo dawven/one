@@ -9,7 +9,7 @@ tag: Python
 	今天开始着手对python学习笔记整理上传，话不多说，直接正文
 
 ## 正文
-1、python2与python3见的最平常的用法区别就是print输出的格式不同
+1、python2与python3见的最平常的用法区别就是print输出的不同
 
 Python2
 
