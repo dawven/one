@@ -6,11 +6,11 @@ description: 欢迎来到我的个人站~
 avatarTitle: viento
 # 头像里面的描述
 avatarDesc: Python / 数据分析
-url: "http://viento.xyz"
+url: "https://pangkanghua.github.io"
 
 # Comment
 comment:
-    # disqus: leopard
+    # disqus: viento
     duoshuo: viento 
 
 # Social
