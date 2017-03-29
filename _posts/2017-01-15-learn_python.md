@@ -3,7 +3,7 @@ layout: post
 title: "Python的基础学习"
 date: 2017-01-15 
 description: "Python的学习笔记"
-tag: Python 
+tag: python 
 ---   
 	
 	今天开始着手对python学习笔记整理上传，话不多说，直接正文
