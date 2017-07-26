@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL系统学习"
+title: "oracle中PRAGMA EXCEPTION_INIT的用法"
 date: 2017-07-25 
 description: "plsql，数据库，笔记"
 tag: oracle，笔记，plsql

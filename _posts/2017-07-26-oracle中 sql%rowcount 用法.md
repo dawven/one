@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "SQL系统学习"
+title: "oracle中sql%rowcount的用法"
 date: 2017-07-25 
 description: "sql，数据库，笔记"
 tag: oracle，笔记，sql
