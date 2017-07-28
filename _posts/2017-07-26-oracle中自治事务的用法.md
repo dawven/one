@@ -3,7 +3,7 @@ layout: post
 title: "oracle中sql%rowcount的用法"
 date: 2017-07-25 
 description: "sql，数据库，笔记"
-tag: oracle，笔记，sql
+tag: plsql
 ---  
 
 sql%rowcount用于记录修改的条数，必须放在一个 **更新或者删除等修改类语句**后面执行，select语句用于查询的话无法使用，  

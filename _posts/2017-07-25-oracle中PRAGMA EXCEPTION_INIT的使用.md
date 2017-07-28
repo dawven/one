@@ -3,7 +3,7 @@ layout: post
 title: "oracle中PRAGMA EXCEPTION_INIT的用法"
 date: 2017-07-25 
 description: "plsql，数据库，笔记"
-tag: oracle，笔记，plsql
+tag: plsql
 ---  
 学习plsql时遇到一道练习题，我需要的只是报错的不执行，直接跳到下一语句。
 如果要处理未命名的内部异常，必须使用OTHERS异常处理器或PRAGMA EXCEPTION_INIT 。PRAGMA由编译器控制，或者是对于编译器的注释。PRAGMA在编译时处理，而不是在运行时处理。EXCEPTION_INIT告诉编译器将异常名 与oracle错误码结合起来，这样可以通过名字引用任意的内部异常，并且可以通过名字为异常编写一适当的异常处理器。  
