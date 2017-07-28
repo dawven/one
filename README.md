@@ -1,6 +1,7 @@
-# leopard
+项目来源作者**leopard**，感谢**leopard**
+# leopard & viento
 
-[leopard](http://baixin.io) 是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是我持续更新的动力, 谢谢 😄.
+[leopard](http://baixin.io) 是一个简洁的博客模板，如果你也喜欢请 Star ，你的 Star 是leopard持续更新的动力, 谢谢 😄.
 
 ### 使用手册
 
