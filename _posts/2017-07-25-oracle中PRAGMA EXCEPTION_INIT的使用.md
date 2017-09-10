@@ -59,11 +59,3 @@ EXCEPTION
     raise_application_error(-20001,'数据错误..最大工资应该大于最小工资');
 END upd_sal;
 ```
-
-
-
-
-
-
-
-
